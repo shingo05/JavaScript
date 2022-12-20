@@ -87,7 +87,7 @@ nav ul li a:hover {
     margin-left: 30px;
     font-size: larger;
     font-family: 'Sawarabi Gothic', sans-serif;
-    transform: scale(1.25, 1);
+    transform: scale(1.15, 1);
 }
 
 .kana{
@@ -99,7 +99,7 @@ table{
     margin-left: 30px;
     font-size: xx-small;
     font-family: 'Sawarabi Gothic', sans-serif;
-    transform: scale(1.25, 1);
+    transform: scale(1.15, 1);
 }
 
 .sentence{
@@ -108,5 +108,5 @@ table{
     margin-right: 30px;
     font-size: xx-small;
     font-family: 'Sawarabi Gothic', sans-serif;
-    transform: scale(1.25, 1);
+    transform: scale(1.15, 1);
 }
