@@ -12,6 +12,7 @@
 .main-image1 img {
     width: 390px;
     height: 330px;
+    object-fit: cover;
     position: relative;
 }
 
