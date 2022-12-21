@@ -71,7 +71,7 @@ nav ul li a:hover {
     border-color: #003FE0;
     position: absolute;
     top: 5px;
-    left: 6px;
+    left: 7px;
 }
 
 .contents-image1 img {
@@ -85,7 +85,7 @@ nav ul li a:hover {
 
 .title {
     color: #003FE0;
-    font-family: varta;
+    font-family: VA;
     font-size: 15px;
     width: 204px;
     height: 51px;
