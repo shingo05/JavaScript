@@ -37,9 +37,11 @@ nav ul li a {
 }
 
 nav ul li a:hover {
-    color: transparent;
+    color: #003FE0;
+
+    /* color: transparent;
     text-stroke: 0.5px #003FE0;
-    -webkit-text-stroke: 0.5px #003FE0;
+    -webkit-text-stroke: 0.5px #003FE0; */
 }
 
 .menu-list-1 {
