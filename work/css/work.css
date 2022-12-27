@@ -42,3 +42,54 @@ nav ul li a:hover {
     letter-spacing: 0px;
 }
 
+.tab {
+
+}
+
+.tab-name {
+    font-size: 25px;
+    display:flex;
+    font-family: 'Varta', sans-serif;
+}
+
+.tab-name-item {
+    list-style: none;
+    color: white;
+    padding: 10px 10px;
+    transition: all .3s;
+}
+
+.tab-name-item.is-active{
+    color: rgba(255, 255, 255, 0.25);
+}
+
+.tab-ex {
+    width: 100%;
+}
+
+.tab-ex-item {}
+
+.tab-ex-item.is-show{
+    display: block;
+}
+
+.tab-ex-item001{
+    display: none;
+} 
+
+.tab-ex-item002{
+    display: none;
+} 
+
+.tab-ex-item003{
+    display: none;
+} 
+
+.tab-ex-item004{
+    display: none;
+} 
+
+
+.tab-ex-txt{
+    color: white;
+}
