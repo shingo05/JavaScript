@@ -67,8 +67,9 @@ input[type="radio"] {
 }
   
 .targets {
-    width: 100%;
+    width: 95%;
     display: grid;
+    margin: auto;
 }
 
 .targets .target {
@@ -81,6 +82,7 @@ input[type="radio"] {
     width: 150px;
     height: 120px;
     float: left;
+    list-style: none;
 }
 
 .targets-img img {
@@ -91,14 +93,14 @@ input[type="radio"] {
 
 .targets-txt {
     color: white;
-    font-size: 12px;
+    font-size: 11px;
     list-style: none;
     font-family: 'Varta', sans-serif;
-    margin: 10px;
+    margin: 8px;
 }
 
 ol ul li a {
-    font-size: 20px;
+    font-size: 18px;
     color: white;
     text-decoration: none;
     font-family: 'Varta', sans-serif;
