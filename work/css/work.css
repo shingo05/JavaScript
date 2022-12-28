@@ -11,6 +11,7 @@ body{
 
 .header {
     height: 80px;
+    text-align: center;
 }
 
 nav ul {
@@ -18,10 +19,8 @@ nav ul {
     align-items: center;
     justify-content: space-between;
     list-style: none;
-    position: absolute;
-    top: 14px;
-    left: 20px;
-
+    text-align: center;
+    margin: 18px 18px;
 }
 
 nav ul li a {
@@ -35,6 +34,11 @@ nav ul li a {
 
 nav ul li a:hover {
     color: blue;
+}
+
+.menu-list-1 {
+    font-size: 20px;
+    line-height: 11px;
 }
 
 .menu-list {
