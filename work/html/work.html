@@ -21,25 +21,64 @@
     </div>
     <!-- tab -->
     <div clss="tab" id="js-tab">
-        <ul class="tab-name">
-            <li class="tab-name-item is-active" data-name="01">Work,</li>
-            <li class="tab-name-item" data-name="02">INT</li>
-            <li class="tab-name-item" data-name="03">GRP</li>
-            <li class="tab-name-item" data-name="04">PHT</li>
-        </ul>
-        <div class="tab-ex">
-            <div class="tab-ex-item tab-ex-item001 is-show" data-ex="01">
-                <p class="tab-ex-txt">abcd</p>
-            </div>
-            <div class="tab-ex-item tab-ex-item002" data-ex="02">
-                <p class="tab-ex-txt">efg</p>
-            </div>
-            <div class="tab-ex-item tab-ex-item002" data-ex="03">
-                <p class="tab-ex-txt">hijk</p>
-            </div>
-            <div class="tab-ex-item tab-ex-item004" data-ex="04">
-                <p class="tab-ex-txt">lnm</p>
-            </div>
+        <input type="radio" id="work" name="categories" value="work" checked>
+        <input type="radio" id="int" name="categories" value="int">
+        <input type="radio" id="grp" name="categories" value="grp">
+        <ol class="filters">
+            <li><label for="work">Work,</label></li>
+            <li><label for="int">INT</label></li>
+            <li><label for="grp">GRP</label></li>
+        </ol>
+        <ol class="targets">
+            <ul class="target" data-category="work int">
+                <li class="targets-img"><img src="" alt=""></li>
+                <li class="targets-txt">abcd</li>
+            </ul>
+            <ul class="target" data-category="work int">
+                <li class="targets-img"><img src="" alt=""></li>
+                <li class="targets-txt">abcd</li>
+            </ul>
+            <ul class="target" data-category="work int">
+                <li class="targets-img"><img src="" alt=""></li>
+                <li class="targets-txt">abcd</li>
+            </ul>
+            <ul class="target" data-category="work int">
+                <li class="targets-img"><img src="" alt=""></li>
+                <li class="targets-txt">abcd</li>
+            </ul>
+            <ul class="target" data-category="work int">
+                <li class="targets-img"><img src="" alt=""></li>
+                <li class="targets-txt">abcd</li>
+            </ul>
+            <ul class="target" data-category="work grp">
+                <li class="targets-img"><img src="" alt=""></li>
+                <li class="targets-txt">abcd</li>
+            </ul>
+            <ul class="target" data-category="work grp">
+                <li class="targets-img"><img src="" alt=""></li>
+                <li class="targets-txt">abcd</li>
+            </ul>
+            <ul class="target" data-category="work grp">
+                <li class="targets-img"><img src="" alt=""></li>
+                <li class="targets-txt">abcd</li>
+            </ul>
+        </ol>
+    </div>
+
+    <!--- uder -->
+    <div class="footer">
+        <div class="border">
+
+        </div>
+        <div class="message">
+            <h2>
+                MOUTHWASH an experiment is an
+            </h2>
+        </div>
+        <div class="footer-last">
+            <p>
+                MOUTHWash,<br>All Right RESEAVER
+            </p>
         </div>
     </div>
     <script type="text/javascript" src="../javaScript/work.js"></script>

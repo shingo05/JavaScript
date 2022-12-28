@@ -43,13 +43,65 @@ nav ul li a:hover {
 }
 
 .tab {
-
+    height: 500;
+    font-family: 'Varta', sans-serif;
 }
+
+input[type="radio"] {
+    position: absolute;
+    left: -9999px;
+  }
+
+.filters {
+    color: white;
+    font-size: 25px;
+    padding-left: 15px;
+}
+
+.filters * {
+    display: inline-block;
+}
+  
+.targets {
+    display: grid;
+}
+
+.targets .target {
+    display:flex;
+    height: 60px;
+    color: white;
+    border-top: 1.5px solid white;
+}
+
+.target-img {
+}
+
+.target-txt {
+    font-family: 'Varta', sans-serif;
+}
+
+.target-txt:hover {
+    color: rgba(255, 255, 255, 0.25);
+}
+
+[value="work"]:checked ~ .filters [for="work"],
+[value="int"]:checked ~ .filters [for="int"],
+[value="grp"]:checked ~ .filters [for="grp"]{
+    color: rgba(255, 255, 255, 0.25);
+}
+
+
+
+
+
+
+
 
 .tab-name {
     font-size: 25px;
     display:flex;
     font-family: 'Varta', sans-serif;
+    padding-left: 15px;
 }
 
 .tab-name-item {
@@ -60,14 +112,17 @@ nav ul li a:hover {
 }
 
 .tab-name-item.is-active{
-    color: rgba(255, 255, 255, 0.25);
+    
 }
 
 .tab-ex {
-    width: 100%;
+    width: 90%;
+    margin: 0 auto;
 }
 
-.tab-ex-item {}
+.tab-ex-item {
+    list-style: none;
+}
 
 .tab-ex-item.is-show{
     display: block;
@@ -85,11 +140,58 @@ nav ul li a:hover {
     display: none;
 } 
 
-.tab-ex-item004{
-    display: none;
-} 
-
+.tab-ex-choice{
+    border-top: 2px solid white;
+}
 
 .tab-ex-txt{
+    list-style: none;
     color: white;
+    font-family: 'Varta', sans-serif;
+}
+
+
+
+
+
+
+
+
+.footer {
+    width: 390px;
+    height: 204px;
+    text-align: center;
+    position: relative;
+    color: white;
+}
+
+.border {
+    width: 363px;
+    height: 40px;
+    border-top: 2px solid white;
+    border-bottom: 2px solid white;
+    margin-left: 15px;
+    margin-top: 30px;
+}
+
+.message {
+    width: 390px;
+    height: 50px;
+    position: absolute;
+    top: 7px;
+}
+
+.message h2 {
+    font-size: 20px;
+}
+
+.footer-last {
+    width: 100px;
+    height: 10px;
+    margin-left: 148px;
+    margin-top: 40px;
+}
+
+.footer-last p {
+    font-size: 7px;
 }
