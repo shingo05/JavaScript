@@ -90,7 +90,7 @@ input[type="radio"] {
 }
 
 .targets-txt {
-    color: rgba(255, 255, 255, 0.25);
+    color: white;
     font-size: 12px;
     list-style: none;
     font-family: 'Varta', sans-serif;
@@ -113,73 +113,6 @@ ol ul li a:hover {
 [value="grp"]:checked ~ .filters [for="grp"]{
     color: rgba(255, 255, 255, 0.25);
 }
-
-
-
-
-
-
-
-
-.tab-name {
-    font-size: 25px;
-    display:flex;
-    font-family: 'Varta', sans-serif;
-    padding-left: 15px;
-}
-
-.tab-name-item {
-    list-style: none;
-    color: white;
-    padding: 10px 10px;
-    transition: all .3s;
-}
-
-.tab-name-item.is-active{
-    
-}
-
-.tab-ex {
-    width: 90%;
-    margin: 0 auto;
-}
-
-.tab-ex-item {
-    list-style: none;
-}
-
-.tab-ex-item.is-show{
-    display: block;
-}
-
-.tab-ex-item001{
-    display: none;
-} 
-
-.tab-ex-item002{
-    display: none;
-} 
-
-.tab-ex-item003{
-    display: none;
-} 
-
-.tab-ex-choice{
-    border-top: 2px solid white;
-}
-
-.tab-ex-txt{
-    list-style: none;
-    color: white;
-    font-family: 'Varta', sans-serif;
-}
-
-
-
-
-
-
-
 
 .footer {
     width: 390px;
