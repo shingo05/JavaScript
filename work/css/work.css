@@ -126,7 +126,7 @@ ol ul li a:hover {
 
 .border {
     width: 363px;
-    height: 40px;
+    height: 50px;
     border-top: 2px solid white;
     border-bottom: 2px solid white;
     margin-left: 15px;
@@ -141,7 +141,7 @@ ol ul li a:hover {
 }
 
 .message h2 {
-    font-size: 20px;
+    font-size: 30px;
 }
 
 .footer-last {

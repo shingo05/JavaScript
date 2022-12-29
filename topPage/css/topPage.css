@@ -167,13 +167,14 @@ nav ul li a:hover {
     height: 204px;
     text-align: center;
     position: relative;
+    color: black;
 }
 
 .border {
     width: 363px;
-    height: 40px;
-    border-top: 2px solid #000000;
-    border-bottom: 2px solid #000000;
+    height: 50px;
+    border-top: 2px solid black;
+    border-bottom: 2px solid black;
     margin-left: 15px;
     margin-top: 30px;
 }
@@ -186,8 +187,7 @@ nav ul li a:hover {
 }
 
 .message h2 {
-    font-size: 20px;
-    color: #000000;
+    font-size: 30px;
 }
 
 .footer-last {
@@ -199,5 +199,4 @@ nav ul li a:hover {
 
 .footer-last p {
     font-size: 7px;
-    color: #000000;
 }

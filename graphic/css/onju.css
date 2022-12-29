@@ -14,7 +14,7 @@ body {
 }
 
 .menu-list02 {
-    margin-left: 120px;
+    margin-left: 100px;
 }
 
 nav ul {
@@ -26,9 +26,9 @@ nav ul {
 }
 
 nav ul li a {
+    font-size: 25px;
     text-decoration: none;
     font-family: Arial, Helvetica, sans-serif;
-    font-weight: bold;
     color: #000;
     transition: all 0.3s;
 }
@@ -36,48 +36,89 @@ nav ul li a {
 nav ul li a:hover {
     color: blue;
 }
+
 .contents {
     font-family: 'Varta', sans-serif;
-    font-weight: bolder;
     margin: auto;
     text-align: center;
 }
 
-.main-title {
-    height: 80px;
-    font-size: 28px;
+.contents-title {
+    height: 200px;
 }
 
-.contents-title {
-    height: 70px;
-    font-size: 22px;
-    text-align: center;
+.main-title01 {
+    font-family: 'Varta', sans-serif;
+    height: 44px;
+    font-size: 40px;
 }
+
+.main-title02 {
+    font-family: 'Varta', sans-serif;
+    height: 42px;
+    font-size: 40px;
+}
+
 .img {
     margin: 20px;
 }
 .img img {
-    width: 250px;
-    height: 325px;
+    width: 350px;
+    height: 455px;
 }
 .img-bord img {
-    width: 300px;
-    height: 150px;
-}
-
-.floter {
-    font-family: 'Varta', sans-serif;
-}
-
-.messege {
-    height: 50px;
-    font-size: smaller;
-    text-align: center;
+    width: 350px;
+    height: 175px;
 }
 
 .data {
+    width: 350px;
+    font-family: 'Varta', sans-serif;
+    margin: auto;
+}
+
+.data-messege {
     height: 50px;
     font-size: smaller;
-    text-align: right;
+    font-family: 'Varta', sans-serif;
+}
+
+.footer {
+    width: 390px;
+    height: 204px;
+    text-align: center;
+    position: relative;
+    color: black;
+}
+
+.border {
+    width: 363px;
+    height: 50px;
+    border-top: 2px solid black;
+    border-bottom: 2px solid black;
+    margin-left: 15px;
+    margin-top: 30px;
+}
+
+.message {
+    width: 390px;
+    height: 50px;
+    position: absolute;
+    top: 7px;
+}
+
+.message h2 {
+    font-size: 30px;
+}
+
+.footer-last {
+    width: 100px;
+    height: 10px;
+    margin-left: 148px;
+    margin-top: 40px;
+}
+
+.footer-last p {
+    font-size: 7px;
 }
 

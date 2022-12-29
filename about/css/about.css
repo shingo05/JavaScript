@@ -57,7 +57,7 @@ nav ul li a:hover {
     position: relative;
 }
 
-.border {
+.borders {
     margin: 0 auto;
     width: 280px;
     height: 320px;
@@ -148,4 +148,43 @@ table {
 
 .contact a:hover {
     color: #003FE0;
+}
+
+.footer {
+    width: 390px;
+    height: 204px;
+    text-align: center;
+    position: relative;
+    color: black;
+}
+
+.border {
+    width: 363px;
+    height: 50px;
+    border-top: 2px solid black;
+    border-bottom: 2px solid black;
+    margin-left: 15px;
+    margin-top: 30px;
+}
+
+.message {
+    width: 390px;
+    height: 50px;
+    position: absolute;
+    top: 7px;
+}
+
+.message h2 {
+    font-size: 30px;
+}
+
+.footer-last {
+    width: 100px;
+    height: 10px;
+    margin-left: 148px;
+    margin-top: 40px;
+}
+
+.footer-last p {
+    font-size: 7px;
 }
