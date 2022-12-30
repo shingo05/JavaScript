@@ -1,0 +1,145 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 390px;
+}
+
+.header {
+    height: 80px;
+    text-align: center;
+}
+
+.menu-list02 {
+    margin-left: 100px;
+}
+
+nav ul {
+    display: flex;
+    align-items: center;
+    list-style: none;
+    text-align: center;
+    margin: 18px;
+}
+
+nav ul li a {
+    font-size: 20px;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #000;
+    transition: all 0.3s;
+}
+
+nav ul li a:hover {
+    color: blue;
+}
+
+.contents {
+    font-family: 'Varta', sans-serif;
+    margin: auto;
+    text-align: center;
+}
+
+.contents-title01 {
+    height: 90px;
+}
+
+.contents-title02 {
+    height: 50px;
+}
+
+.main-title01 {
+    font-family: 'Varta', sans-serif;
+    height: 44px;
+    font-size: 40px;
+}
+
+.main-title02 {
+    font-family: 'Varta', sans-serif;
+    height: 35px;
+    font-size: 30px;
+}
+
+.main-title03 {
+    font-family: 'Varta', sans-serif;
+    height: 42px;
+    font-size: 30px;
+}
+
+.img01 img {
+    width: 350px;
+    height: 383px;
+    margin: 20px;
+}
+
+.img02 img {
+    width: 350px;
+    height: 500px;
+    margin: 20px;
+}
+
+.img03 img {
+    width: 350px;
+    height: 159px;
+    margin: 20px;
+}
+
+.img04 img {
+    width: 350px;
+    height: 175px;
+    margin: 20px;
+}
+
+.data {
+    width: 350px;
+    font-family: 'Varta', sans-serif;
+    margin: auto;
+}
+
+.data-messege {
+    height: 50px;
+    font-size: smaller;
+    font-family: 'Varta', sans-serif;
+}
+
+.footer {
+    width: 390px;
+    height: 204px;
+    text-align: center;
+    position: relative;
+    color: black;
+}
+
+.border {
+    width: 363px;
+    height: 50px;
+    border-top: 2px solid black;
+    border-bottom: 2px solid black;
+    margin-left: 15px;
+    margin-top: 30px;
+}
+
+.message {
+    width: 390px;
+    height: 50px;
+    position: absolute;
+    top: 7px;
+}
+
+.message h2 {
+    font-size: 30px;
+}
+
+.footer-last {
+    width: 100px;
+    height: 10px;
+    margin-left: 148px;
+    margin-top: 40px;
+}
+
+.footer-last p {
+    font-size: 7px;
+}
