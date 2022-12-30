@@ -6,6 +6,7 @@
 
 body {
     width: 390px;
+    font-family: 'Varta', sans-serif;
 }
 
 .header {
@@ -77,10 +78,7 @@ nav ul li a:hover {
     scrollbar-width: 200px;
     scroll-snap-type: x mandatory;
     position: relative;
-
 }
-
-
 
 .contents::-webkit-scrollbar {
     width: 10px;
@@ -102,10 +100,10 @@ nav ul li a:hover {
     height: 90px;
 }
 
-.contents-title h2 span {
+/* .contents-title h2 span {
     color: #000000;
     font-size: 15px;
-}
+} */
 
 
 .contents-title h2 {
