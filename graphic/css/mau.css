@@ -49,20 +49,22 @@ nav ul li a:hover {
 
 .main-title01 {
     font-family: 'Varta', sans-serif;
-    height: 44px;
+    height: 40px;
     font-size: 30px;
 }
 
 .main-title02 {
     font-family: 'Varta', sans-serif;
-    height: 42px;
+    height: 40px;
     font-size: 30px;
 }
 
 .main-title03 {
     font-family: 'Varta', sans-serif;
-    height: 42px;
-    font-size: 28px;
+    height: 40px;
+    font-size: 20px;
+    margin-left: 20px;
+    text-align: left;
 }
 
 .img {
