@@ -5,7 +5,8 @@
 }
 
 body {
-    width: 390px;
+    max-width: 390px;
+    overflow-x: hidden;
 }
 
 .header {
@@ -85,7 +86,8 @@ nav ul li a:hover {
 
 .img03 img {
     width: 390px;
-    height: 223px;;
+    height: 223px;
+    ;
 }
 
 .img-bord img {

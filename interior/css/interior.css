@@ -5,9 +5,9 @@
 }
 
 body {
-    width: 390px;
+    max-width: 390px;
     font-family: 'Varta', sans-serif;
-    /* border: black 1px solid; */
+    overflow-x: hidden;
 }
 
 /* ここからheader */

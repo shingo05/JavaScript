@@ -4,9 +4,10 @@
     box-sizing: border-box;
 }
 
-body{
-    width: 390px;
+body {
     background-color: black;
+    max-width: 390px;
+    overflow-x: hidden;
 }
 
 .header {
@@ -54,7 +55,7 @@ nav ul li a:hover {
 input[type="radio"] {
     position: absolute;
     left: -9999px;
-  }
+}
 
 .filters {
     color: white;
@@ -65,7 +66,7 @@ input[type="radio"] {
 .filters * {
     display: inline-block;
 }
-  
+
 .targets {
     width: 95%;
     display: grid;
@@ -110,9 +111,9 @@ ol ul li a:hover {
     color: rgba(255, 255, 255, 0.25);
 }
 
-[value="work"]:checked ~ .filters [for="work"],
-[value="int"]:checked ~ .filters [for="int"],
-[value="grp"]:checked ~ .filters [for="grp"]{
+[value="work"]:checked~.filters [for="work"],
+[value="int"]:checked~.filters [for="int"],
+[value="grp"]:checked~.filters [for="grp"] {
     color: rgba(255, 255, 255, 0.25);
 }
 
