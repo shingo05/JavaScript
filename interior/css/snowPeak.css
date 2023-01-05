@@ -182,12 +182,16 @@ nav ul li a:hover {
     width: 340px;
 } */
 
-.date p {
-    font-size: 12px;
-    margin: 10px 240px 0px 0px;
+.date {
+    text-align: left;
 }
 
+.date p {
+    font-size: 12px;
+    margin-left: 20px;
+    margin-top: 10px;
 
+}
 
 
 
