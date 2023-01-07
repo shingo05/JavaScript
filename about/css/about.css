@@ -189,6 +189,7 @@ table {
 }
 
 .message {
+    display: flex;
     width: 150%;
     height: 50px;
     text-align: left;
@@ -196,9 +197,82 @@ table {
     top: 15px;
 }
 
-.message h2 {
+.message div {
+    flex: 0 0 auto;
     font-size: 35px;
-    margin-left: 0px;
+    white-space: nowrap;
+    overflow-x: hidden;
+}
+
+@media screen and ( min-width: 900px ) {
+    .loop_css3 div {
+      font-size: 4rem;
+    }
+}
+
+.message div:nth-child(odd) {
+    -webkit-animation: loop 50s -25s linear infinite;
+    animation: loop 50s -25s linear infinite;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+    will-change: transform;
+}
+  
+.message div:nth-child(even) {
+    -webkit-animation: loop2 50s linear infinite;
+    animation: loop2 50s linear infinite;
+}
+
+@-webkit-keyframes loop {
+    0% {
+      -webkit-transform: translateX(100%);
+      -ms-transform: translateX(100%);
+      transform: translateX(100%);
+    }
+    to {
+      -webkit-transform: translateX(-100%);
+      -ms-transform: translateX(-100%);
+      transform: translateX(-100%);
+    }
+}
+
+@keyframes loop {
+    0% {
+      -webkit-transform: translateX(100%);
+      -ms-transform: translateX(100%);
+      transform: translateX(100%);
+    }
+    to {
+      -webkit-transform: translateX(-100%);
+      -ms-transform: translateX(-100%);
+      transform: translateX(-100%);
+    }
+}
+
+@-webkit-keyframes loop2 {
+    0% {
+      -webkit-transform: translateX(0);
+      -ms-transform: translateX(0);
+      transform: translateX(0);
+    }
+    to {
+      -webkit-transform: translateX(-200%);
+      -ms-transform: translateX(-200%);
+      transform: translateX(-200%);
+    }
+}
+
+@keyframes loop2 {
+    0% {
+      -webkit-transform: translateX(0);
+      -ms-transform: translateX(0);
+      transform: translateX(0);
+    }
+    to {
+      -webkit-transform: translateX(-200%);
+      -ms-transform: translateX(-200%);
+      transform: translateX(-200%);
+    }
 }
 
 .footer-last {
