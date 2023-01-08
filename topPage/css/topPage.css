@@ -243,16 +243,16 @@ nav ul li a:hover {
 }
 
 .message div:nth-child(odd) {
-    -webkit-animation: loop 50s -25s linear infinite;
-    animation: loop 50s -25s linear infinite;
+    -webkit-animation: loop 30s -15s linear infinite;
+    animation: loop 30s -15s linear infinite;
     -webkit-backface-visibility: hidden;
     backface-visibility: hidden;
     will-change: transform;
 }
 
 .message div:nth-child(even) {
-    -webkit-animation: loop2 50s linear infinite;
-    animation: loop2 50s linear infinite;
+    -webkit-animation: loop2 30s linear infinite;
+    animation: loop2 30s linear infinite;
 }
 
 @-webkit-keyframes loop {

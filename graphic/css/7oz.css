@@ -62,6 +62,15 @@ nav ul li a:hover {
 
 .main-title03 {
     font-family: 'Varta', sans-serif;
+    height: 110px;
+    font-size: 40px;
+    width: 330px;
+    border-bottom: black 1px solid;
+    margin-left: 30px;
+}
+
+.main-title04 {
+    font-family: 'Varta', sans-serif;
     height: 40px;
     font-size: 20px;
     margin-left: 20px;
@@ -75,7 +84,7 @@ nav ul li a:hover {
 .img01 img {
     width: 350px;
     height: 525px;
-    margin: 10px;
+    margin: 60px 10px 10px 10px;
 }
 
 .img02 img {
@@ -155,16 +164,16 @@ nav ul li a:hover {
 }
 
 .message div:nth-child(odd) {
-    -webkit-animation: loop 50s -25s linear infinite;
-    animation: loop 50s -25s linear infinite;
+    -webkit-animation: loop 30s -15s linear infinite;
+    animation: loop 30s -15s linear infinite;
     -webkit-backface-visibility: hidden;
     backface-visibility: hidden;
     will-change: transform;
 }
 
 .message div:nth-child(even) {
-    -webkit-animation: loop2 50s linear infinite;
-    animation: loop2 50s linear infinite;
+    -webkit-animation: loop2 30s linear infinite;
+    animation: loop2 30s linear infinite;
 }
 
 @-webkit-keyframes loop {
