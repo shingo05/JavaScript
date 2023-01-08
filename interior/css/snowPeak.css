@@ -95,6 +95,7 @@ nav ul li a:hover {
     width: 240px;
     margin-left: 75px;
     font-size: 10px;
+    text-align: justify;
     font-family: 'Sawarabi Gothic', sans-serif;
     transform: scale(1.15, 1);
 }
