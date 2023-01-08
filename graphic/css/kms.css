@@ -131,7 +131,7 @@ nav ul li a:hover {
     height: 60px;
     text-align: left;
     position: absolute;
-    top: 15px;
+    top: 9px;
     overflow: hidden;
 }
 
@@ -139,6 +139,7 @@ nav ul li a:hover {
     flex: 0 0 auto;
     font-size: 35px;
     font-weight: bold;
+    font-family: 'Varta', sans-serif;
     white-space: nowrap;
     overflow-x: hidden;
 }
