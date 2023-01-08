@@ -181,6 +181,7 @@ nav ul li a:hover {
     text-align: left;
     position: absolute;
     top: 12px;
+    overflow: hidden;
 }
 
 .message div {
