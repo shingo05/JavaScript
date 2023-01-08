@@ -201,6 +201,7 @@ table {
 .message div {
     flex: 0 0 auto;
     font-size: 35px;
+    font-weight: bold;
     white-space: nowrap;
     overflow-x: hidden;
 }
