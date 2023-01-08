@@ -63,6 +63,10 @@ input[type="radio"] {
     padding-left: 15px;
 }
 
+.filters li{
+    font-family: 'Varta', sans-serif;
+}
+
 .filters * {
     display: inline-block;
 }
@@ -92,7 +96,15 @@ input[type="radio"] {
     height: 120px;
 }
 
-.targets-txt {
+.targets-txt1 {
+    color: white;
+    font-size: 11px;
+    list-style: none;
+    font-family: 'Varta', sans-serif;
+    margin: 8px;
+}
+
+.targets-txt2{
     color: white;
     font-size: 11px;
     list-style: none;

@@ -134,11 +134,12 @@ table {
 }
 
 .contact-border {
-    width: 333px;
+    width: 280px;
     height: 310px;
-    border-top: 2px solid #000000;
+    border-top: 0.5px solid #000000;
     /* border-bottom: 2px solid #000000; */
-    margin-left: 28px;
+    margin-left: 55px;
+    margin-right: 55px;
 }
 
 .contact-list {
