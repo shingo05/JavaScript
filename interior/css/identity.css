@@ -77,12 +77,13 @@ nav ul li a:hover {
     height: 350px;
     width: 350px;
     object-fit: cover;
+    margin-bottom: 40px;
 }
 
 .explaination {
     width: 350px;
     text-align: initial;
-    margin-bottom: 30px;
+    margin-bottom: 70px;
 }
 
 .explaination p {
