@@ -148,6 +148,12 @@ nav ul li a:hover {
     width: 350px;
     margin-left: 20px;
     text-align: right;
+    border: 1px solid black;
+}
+
+.flore1f.hidden {
+    border: 1px solid white;
+
 }
 
 .flore1f p {
@@ -156,6 +162,7 @@ nav ul li a:hover {
     line-height: 12px;
     /* letter-spacing: -0.5px; */
 }
+
 
 
 /* .flore1f p span {
@@ -204,7 +211,7 @@ nav ul li a:hover {
 .date p {
     font-size: 12px;
     margin-left: 20px;
-    margin-top: 10px;
+    margin-top: 20px;
 
 }
 
