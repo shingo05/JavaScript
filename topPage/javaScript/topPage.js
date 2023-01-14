@@ -1,3 +1,3 @@
-// setTimeout(function () {
-//     $('#loading-bg').fadeOut();
-// }, 5000);
+setTimeout(function () {
+    $('#loading-bg').fadeOut();
+}, 3000);
