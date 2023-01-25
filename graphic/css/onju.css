@@ -84,14 +84,51 @@ nav ul li a:hover {
     margin: 20px;
 }
 
-.img img {
+.slider .img img {
     width: 350px;
     height: 455px;
+}
+
+/*------ スライダーの横幅 ------*/
+.slider{
+    width:100%;
+    margin:0 auto;
+}
+  
+/*------ スライダー画像 ------*/
+.slider img{
+    width:100%;
+}
+  
+/*-------- 高さ調整 ----------*/
+.slider .slick-slide{
+    height:490px!important;
+}
+  
+/*---------- 矢印 ----------*/
+.slider .slick-next{
+    right:0!important;
+}
+
+.slider .slick-prev{
+    left:0!important;
+}
+  
+.slider .slick-arrow{
+    width: initial!important;
+    height: initial!important;
+    z-index:2!important;
+}
+
+.slider .slick-arrow:before{
+    font-size: 30px!important;
+    color: #000;
 }
 
 .img-bord img {
     width: 350px;
     height: 175px;
+    margin-top: 30px;
 }
 
 .data {
